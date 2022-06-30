@@ -4,6 +4,8 @@ import Statistics from './Components/Statistics/Statistics';
 import data from './Components/Statistics/data.json';
 import FriendList from './Components/FriendList/FriendList';
 import friends from './Components/FriendList/friends.json';
+import Trans from './Components/trans/trans';
+import trans from './Components/trans/trans.json';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       />
       <Statistics title="Upload Stats" stats={data} />
       <FriendList friends={friends} />
+      <Trans items={trans} />
     </>
   );
 }
